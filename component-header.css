@@ -1,0 +1,185 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.link1 {
+	text-decoration: none;
+	color: #DDD;
+}
+
+.header .top-bar {
+	height: 50px;
+	display: flex;
+	background-color: #3c5a9a; 
+}
+
+.header .top-bar .f-logo {
+	height: 60%;
+	flex-basis:  30px;
+	position: relative;
+	left: 10px;
+	top: 10px;
+	background-color: #FFF;
+	background-image: url(./logo-fb.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: right;
+	border-radius: 3px;
+}
+
+.header .top-bar .f-logo:hover {
+	background-color: #EEE;
+}
+
+.top-bar .search-box {
+	display: flex;
+	flex-grow: 0.7;
+	flex-basis: 250px;
+}
+
+.search-box .input {
+	height: 60%;
+	background-color: #FFF;
+	position: relative;
+	left: 20px;
+	top: 10px;
+	border-radius: 4px;
+	flex-grow: 0.7;
+}
+
+.search-box .input input {
+	height: 29px;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	border: none;
+	border-radius: 4px;
+}
+
+.search-box .input button {
+	height: 100%;
+	border: none;
+	background-color: #FFF;
+}
+
+.search-box .input button {
+	position: absolute;
+	right: 0px;
+}
+
+.search-box .input button:hover {
+	background-color: #EEE;
+}
+
+.top-right-bar {
+	margin-left: 30px;
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr 1.5fr 1.5fr 1.5fr 1.5fr 1fr;
+	height: 30px;
+	position: relative;
+	flex-basis: 400px;
+	top: 5px;
+	align-items: center;
+}
+
+.top-right-bar .profile {
+	display: flex;
+	height: 30px;
+	color: #DDD;
+	align-items: center;
+}
+
+.top-right-bar .profile .avatar {
+	height: 30px;
+	width: 30px;
+	border-radius: 15px;
+    border-radius: 15px;
+    border-radius: 15px;
+    border-radius: 15px;
+	background-image: url(./avt.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.profile .user-name {
+	width: 50px;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 2px 10px;
+	border-right: 0.1px solid #444;
+}
+
+.top-right-bar .home {
+	color: #DDD;
+	width: 50px;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: center;
+	padding: 2px 6px;
+	border-right: 0.1px solid #444;	
+}
+
+.top-right-bar .create {
+	color: #DDD;
+	width: 50px;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: center;
+	padding: 2px 6px;
+	border-right: 0.1px solid #444;	
+}
+
+.same-color-hover-in-top:hover {
+	display: flex;
+	height: 25px;
+	align-items: center;
+	border-radius: 4px;
+	background-color: #66666652;
+}
+
+.top-right-bar .friend-requests {
+	height: 30px;
+	width: 30px;
+	margin: 5px;
+	background-image: url(./fr-rq.png);
+	background-size: cover;
+	background-position: ;
+}
+
+.list-more {
+	list-style-type: none;
+	font-size: 14px;
+	padding: 0px 40px;
+	margin-left: -140px;
+	border: 1px solid #AAA;
+	box-shadow: 1px -1px grey;
+	display: none; 
+}
+
+.top-right-bar .more-options:hover .list-more {
+	display: block;
+
+}
+
+.list-more a {
+	text-decoration: none;
+	color: #444;
+}
+
+.list-more li:hover {
+	width: 100%;
+	color: #FFF;
+	background-color: #3c5a9a;
+}
+
+.same-change-in-top {
+	color: #000;
+	height: 30px;
+	width: 30px;
+	margin: 4px;
+	opacity: 0.7;
+}
+
+.same-change-in-top:hover {
+	opacity: 1;
+}
