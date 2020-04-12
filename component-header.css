@@ -172,6 +172,10 @@ body {
 	background-color: #3c5a9a;
 }
 
+.list-more li:hover a {
+	color: #FFF;
+}
+
 .same-change-in-top {
 	color: #000;
 	height: 30px;
