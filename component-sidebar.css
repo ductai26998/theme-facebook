@@ -1,3 +1,136 @@
-.test {
-	color: red;
+.wrap {
+	background-color: #e9ebee;
+}
+
+.sidebar {
+	position: fixed;
+	left: 0px;
+	background-color: #e9ebee;
+}
+
+.container {
+	padding: 10px 20px 10px 30px;
+	width: 200px;
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+	background-color: transparent;
+}
+
+.text-left {
+	color: #000;
+	font-size: 14px;
+}
+
+.same-size-watch{
+	height: 30px;
+	display: flex;
+	align-items: center;
+	margin: 2px;
+	border-radius: 3px;
+} 
+
+.goto-profile-left {
+	display: flex;
+	position: relative;
+}
+
+.goto-profile-left .more {
+	opacity: 0;
+}
+
+.goto-profile-left:hover .more {
+	opacity: 1;
+	position: absolute;
+	right: 4px;
+}
+
+.goto-profile-left a {
+	width: 100%;
+	display: flex;
+	text-decoration: none;
+	text-align: center;
+}
+
+.goto-profile-left a .user-name {
+	display: inline-block;
+	padding: 5px;
+}
+
+.goto-profile-left .my-avatar {
+	transform: scale(0.8);
+	float: left;
+}
+
+.app-in-facebook {
+	margin-top: 20px;
+}
+
+.goto-news-feed {
+	position: relative;
+	background-color: #f5f6f7;
+}
+
+.goto-news-feed a {
+	color: #3884fe;
+	text-decoration: none;	
+}
+
+.goto-news-feed .news-feed {
+	display: flex;
+}
+
+.goto-news-feed .news-feed .text-news-feed {
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+.more {
+	color: #90949c;
+	position: absolute;
+	right: 4px;
+	bottom: 7px; 
+}
+
+.goto-messenger a {
+	color: #3884fe;
+	text-decoration: none;	
+}
+
+.goto-messenger .messenger {
+	display: flex;
+}
+
+.goto-messenger .messenger .text-messenger {
+	padding-left: 5px;
+}
+
+.goto-watch a {
+	color: #3884fe;
+	text-decoration: none;	
+}
+
+.goto-watch .watch {
+	display: flex;
+}
+
+.goto-watch .watch .text-watch {
+	padding-left: 5px;
+}
+
+.goto-marketplace a {
+	color: #52baa6;
+	text-decoration: none;	
+}
+
+.goto-marketplace .marketplace {
+	display: flex;
+}
+
+.goto-marketplace .marketplace .text-marketplace {
+	padding-left: 5px;
+}
+
+.same-hover-on-sidebar:hover {
+	background-color: #f5f6f7;
 }

@@ -3,8 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<title>facebook</title>
-	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="component-header.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/34949473b1.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="./component-header.css">
+	<link rel="stylesheet" type="text/css" href="./component-sidebar.css">
 </head>
 <body>
 	<div class="header">
@@ -25,68 +27,138 @@
 				</div>
 			</div>
 			<div class="top-right-bar">
-				<a class="link1" href="#">
-					<div class="same-color-hover-in-top profile">
-						<div class="avatar"></div>
-							<div class="user-name">Đức Tài</div>
-					</div>
-				</a>
-				<a class="link1" href="#">
-					<div class="same-color-hover-in-top">
-						<div class="home">Home</div>
-					</div>
-				</a>
-				<a class="link1" href="#">
-					<div class="same-color-hover-in-top">
-						<div class="create">Create</div>
-					</div>
-				</a>
-				<a href="#">
-					<div class="same-change-in-top">
-						<div class="friend-requests">
+				<div class="goto-profile-top">
+					<a class="link1" href="#">
+						<div class="same-color-hover-in-top profile">
+							<div class="my-avatar"></div>
+							<div class="user-name">Tài</div>
 						</div>
-					</div>
-				</a>
-				<a href="#">
-					<div class="same-change-in-top">
-						<div class="messages">
-							<i class="material-icons">message</i>
+					</a>
+				</div>
+				<div class="goto-home">
+					<a class="link1" href="#">
+						<div class="same-color-hover-in-top">
+							<div class="home">Home</div>
 						</div>
-					</div>
-				</a>
-				<a href="#">
-					<div class="same-change-in-top">
-						<div class="notifications">
-							<i class="material-icons">notifications</i>
+					</a>
+				</div>
+				<div class="goto-create">
+					<a class="link1" href="#">
+						<div class="same-color-hover-in-top">
+							<div class="create">Create</div>
 						</div>
+					</a>
+				</div>
+				<div class="black-icon-on-right-top">
+					<div class="goto-friend-requests">
+						<a href="#">
+							<div class="same-change-in-top">
+								<div class="friend-requests">
+									<i class="fas fa-user-friends fa-lg"></i>
+								</div>
+							</div>
+						</a>
 					</div>
-				</a>
-				<a href="#">
-					<div class="same-change-in-top">
-						<div class="help">
-							<i class="material-icons">help</i>
-						</div>
+					<div class="goto-messages">
+						<a href="#">
+							<div class="same-change-in-top">
+								<div class="messages">
+									<i class="fab fa-facebook-messenger fa-lg"></i>
+								</div>
+							</div>
+						</a>
 					</div>
-				</a>
-				<div class="dropdown">
-					<div class="same-change-in-top">
-						<div class="more-options">
-							<i class="material-icons">expand_more</i>
-							<ul class="list-more">
-								<li><a href="#">Manage Groups</a></li>
-								<li><a href="#">Advertising on Facebook</a></li>
-								<li><a href="">Activity log</a></li>
-								<li><a href="#">News Feed preferences</a></li>
-								<li><a href="#">Settings</a></li>
-								<li><a href="#">Log Out</a></li>
-							</ul>
+					<div class="goto-notifications">
+						<a href="#">
+							<div class="same-change-in-top">
+								<div class="notifications">
+									<i class="fas fa-bell fa-lg"></i>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="goto-help">
+						<a href="#">
+							<div class="same-change-in-top">
+								<div class="help">
+									<i class="fas fa-question-circle fa-lg"></i>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="dropdown">
+						<div class="same-change-in-top">
+							<div class="more-options">
+								<i class="fas fa-chevron-down fa-lg"></i>
+								<ul class="list-more">
+									<li><a href="#">Manage Groups</a></li>
+									<li><a href="#">Advertising on Facebook</a></li>
+									<li><a href="">Activity log</a></li>
+									<li><a href="#">News Feed preferences</a></li>
+									<li><a href="#">Settings</a></li>
+									<li><a href="#">Log Out</a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="sidebar"></div>
-	<div class="main"></div>
+	<div class="wrap">
+		<div class="sidebar">
+			<div class="container">
+				<div class="sidebar-options">
+					<div class="same-size-watch same-hover-on-sidebar goto-profile-left">
+						<a href="#">
+							<div class="my-avatar"></div>
+							<div class="text-left user-name">Đức Tài</div>
+							<div class="more">
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</a>
+					</div>
+					<div class="app-in-facebook">
+						<div class="same-size-watch goto-news-feed">
+							<a href="#">
+								<div class="news-feed">
+									<i class="fas fa-newspaper fa-lg"></i>	
+									<div class="text-left text-news-feed">News Feed</div>
+								</div>
+								<div class="more">
+									<i class="fas fa-ellipsis-h"></i>
+								</div>
+							</a>	
+						</div>				
+						<div class="same-size-watch same-hover-on-sidebar goto-messenger">
+							<a href="#">
+								<div class="messenger">
+									<i class="fab fa-facebook-messenger fa-lg"></i>
+									<div class="text-left text-messenger">Messenger</div>				
+								</div>
+							</a>
+						</div>
+						<div class="same-size-watch same-hover-on-sidebar goto-watch">
+							<a href="#">
+								<div class="watch">
+									<i class="fab fa-youtube fa-lg"></i>
+									<div class="text-left text-watch">Watch</div>	
+								</div>
+							</a>
+						</div>
+						<div class="same-size-watch same-hover-on-sidebar goto-marketplace">
+							<a href="#">
+								<div class="marketplace">
+									<i class="fas fa-store fa-lg"></i>
+									<div class="text-left text-marketplace">Marketplace</div>		
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main"></div>
+	</div>
 </body>
 </html>
