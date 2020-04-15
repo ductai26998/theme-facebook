@@ -1,0 +1,299 @@
+.wrap .main {
+	display: flex;
+	width: 550px;
+	position: relative;
+	left: 250px;
+	padding-top: 50px;
+}
+
+.container-main {
+	margin: 10px 10px 0px 10px;
+	width: 550px;
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+	background-color: transparent;
+}
+
+.container-main .open-post-box {
+	padding: 0px;
+	border: none;	
+}
+
+.container-main .create-post {
+	width: 100%;
+	background-color: #FFF;
+	border: 1px solid #DDD;
+	border-radius: 4px;
+}
+
+.create-post .title-create-post {
+	background-color: #f5f6f7;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	padding-left: 7px;
+	border-bottom: 1px solid #DDD;
+}
+
+.title-create-post .text {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.create-post .post-box {
+	display: flex;
+	height: 80px;
+}
+
+.post-box .my-avatar {
+	transform: scale(1.5);
+	position: relative;
+	top: 25px;
+	left: 21px;
+	cursor: pointer;
+}
+
+.post-box input {
+	padding-left: 48px;
+	border: none;
+	font-size: 15px;
+}
+
+.insert-in-post .insert-box	{
+	display: flex;
+	margin: 0px 10px 0px 10px;
+	padding: 10px 0px 10px 0px;
+	border-top: 1px solid #DDD;
+}
+
+.goto-photo-video {
+	background-color: #f5f6f7;
+	height: 30px;
+	flex-basis: 120px;
+	border-radius: 13px; 
+}
+
+.goto-photo-video a {
+	width: 100%;
+	display: flex;
+	text-decoration: none;
+	text-align: center;
+}
+
+.photo-video {
+	display: flex;
+	text-align: center;
+}
+
+.photo-video .icon {
+	float: left;
+	background-color: #9fcd6a;
+	color: #4db3f7;
+	margin: 8px 6px 6px 6px;
+}
+
+.text-content {
+	font-weight: bold;
+	font-size: 13px;
+	color: #000;
+	padding: 7px 0px 0px 0px;
+}
+
+.goto-tag-friends {
+	background-color: #f5f6f7;
+	height: 30px;
+	flex-basis: 120px;
+	border-radius: 13px;
+	margin-left: 8px;  
+}
+
+.goto-tag-friends a {
+	width: 100%;
+	display: flex;
+	text-decoration: none;
+	text-align: center;
+}
+
+.tag-friends {
+	display: flex;
+	text-align: center;
+}
+
+.tag-friends .icon {
+	float: left;
+	color: #4db3f7;
+	margin: 8px 6px 6px 6px;
+}
+
+.goto-play {
+	background-color: #f5f6f7;
+	height: 30px;
+	flex-basis: 140px;
+	border-radius: 13px;
+	margin-left: 8px;  
+}
+
+.goto-play a {
+	width: 100%;
+	display: flex;
+	text-decoration: none;
+	text-align: center;
+}
+
+.play {
+	display: flex;
+	text-align: center;
+}
+
+.play .icon {
+	float: left;
+	color: #4db3f7;
+	margin: 8px 6px 6px 6px;
+}
+
+.goto-options {
+	background-color: #f5f6f7;
+	height: 30px;
+	flex-basis: 50px;
+	border-radius: 13px;
+	margin-left: 8px;  	
+}
+
+.goto-options a {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	text-decoration: none;
+	text-align: center;	
+}
+
+.goto-options .options {
+	color: #90949c;
+	margin: 8px 6px 6px 19px;	
+}
+
+.same-hover-in-insert:hover {
+	background-color: #ebedf0;
+}
+
+/* ----------------- stories ---------------------*/
+
+.container-main .list-story {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0px 20px 0px;
+	width: 100%;
+	height: 270px;
+	background-color: #FFF; 
+	border-radius: 4px;
+	border: 1px solid #DDD;
+}
+
+.list-story .content-box {
+	margin: 10px 0px 10px 10px;
+	height: 280px;
+}
+
+.list-story .title-list-story {
+	height: 30px;
+	display: flex;
+	font-size: 14px; 
+	position: relative;
+	margin-right: 10px;
+}
+
+.title-list-story .text {
+	font-weight: bold;
+}
+
+.title-list-story a {
+	text-decoration: none;
+	position: absolute;
+	right: 0px;
+}
+
+.title-list-story .see-all {
+	font-size: 12.5px;
+}
+
+.title-list-story a:hover {
+	text-decoration: underline;
+}
+
+.stories {
+	display: flex;
+}
+
+.stories .story {
+	height: 220px;
+	width: 25%;
+	margin-right: 10px;
+	overflow: hidden;
+	border-radius: 10px;
+	
+}
+
+.stories .story .image {
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	transition: all 0.5s;
+	position: relative;
+}
+
+.stories .story-1 .image {
+	background-image: url(https://img2.thuthuatphanmem.vn/uploads/2019/01/04/anh-dep-gai-xinh_025059121.png);
+}
+
+.stories .story-2 .image {
+	background-image: url(https://img2.thuthuatphanmem.vn/uploads/2019/01/04/anh-gai-dep-nhat_025059644.jpg);
+}
+
+.stories .story-3 .image {
+	background-image: url(https://img2.thuthuatphanmem.vn/uploads/2019/01/04/hinh-anh-hot-girl-dep_025104603.jpg);
+}
+
+.stories .story-4 .image {
+	margin-right: 0px;
+	background-image: url(https://img2.thuthuatphanmem.vn/uploads/2019/01/04/anh-gai-dep-hien-dai_025059560.jpg);
+}
+
+.stories .story .my-avatar {
+	border: 3px solid #3578e5;
+	position: absolute;
+	top: 13px;
+	left: 13px;
+	transform: scale(1.2);
+}
+
+.story .name {
+	font-weight: bold;
+	font-size: 14px;
+	color: #FFF;
+	position: absolute;
+	bottom: 13px;
+	left: 13px;
+}
+
+.stories .story .overlay {
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.1);
+	display: flex;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.stories .story:hover .image {
+	opacity: 1;
+	transform: scale(1.03);
+	transition: 0.5s;
+}
+
+.stories .story:hover .overlay {
+	opacity: 1;
+	transition: 0.5s;
+}

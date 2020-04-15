@@ -1,8 +1,16 @@
 * {
 	margin: 0px;
 }
+
 body {
 	font-family: Arial, sans-serif;
+}
+
+.header {
+	height: 50px;
+	position: fixed;
+	top: 0px;
+	z-index: 999999;
 }
 
 .link1 {
@@ -28,6 +36,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: right;
 	border-radius: 3px;
+	cursor: pointer;
 }
 
 .header .top-bar .f-logo:hover {
@@ -68,6 +77,7 @@ body {
 .search-box .input button {
 	position: absolute;
 	right: 0px;
+	cursor: pointer;
 }
 
 .search-box .input button:hover {
@@ -95,10 +105,10 @@ body {
 .my-avatar {
 	height: 30px;
 	width: 30px;
-	border-radius: 15px;
-    border-radius: 15px;
-    border-radius: 15px;
-    border-radius: 15px;
+	border-radius: 20px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border-radius: 20px;
 	background-image: url(./avt.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -141,10 +151,10 @@ body {
 
 .same-color-hover-in-top:hover {
 	display: flex;
-	height: 25px;
+	height: 30px;
 	align-items: center;
 	border-radius: 4px;
-	background-color: #66666652;
+	background-color: #33537d;
 }
 
 .list-more {
