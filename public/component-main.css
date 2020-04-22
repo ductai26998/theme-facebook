@@ -298,7 +298,39 @@
 	transition: 0.5s;
 }
 
+.post-list {
+	display: flex;
+	flex-direction: column;
+}
 
+.post {
+	margin-bottom: 10px;
+	background-size: cover;
+	display: inline-block;
+	background-repeat: no-repeat;		
+}
+
+.post-1 {
+	height: 500px;
+	background-image: url(./pt1.png);
+}
+
+.post-2 {
+	height: 500px;
+	background-image: url(./pt2.png);	
+}
+
+.post-3 {
+	height: 500px;
+	background-image: url(./pt3.png);
+}
+
+.post-4 {
+	height: 500px;
+	background-image: url(./pt4.png);
+}
+
+/*=====================================================*/
 .right-of-main {
 	height: 220px;
 	width: 270px;
