@@ -9,7 +9,6 @@
 .container-main {
 	margin: 10px 10px 0px 0px;
 	width: 550px;
-	height: 1000px;
 	display: flex;
 	flex-direction: column;
 	background-color: transparent;
