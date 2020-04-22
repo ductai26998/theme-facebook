@@ -1,13 +1,13 @@
 .wrap .main {
 	display: flex;
-	width: 550px;
+	width: 1030px;
 	position: relative;
 	left: 250px;
 	padding-top: 50px;
 }
 
 .container-main {
-	margin: 10px 10px 0px 10px;
+	margin: 10px 10px 0px 0px;
 	width: 550px;
 	height: 1000px;
 	display: flex;
@@ -297,3 +297,90 @@
 	opacity: 1;
 	transition: 0.5s;
 }
+
+
+.right-of-main {
+	height: 220px;
+	width: 270px;
+}
+
+.right-of-main .fr-birthday {
+	width:100%;
+	height: 40px;
+	margin-top: 10px;
+	background-color: #FFF;
+	border-radius: 4px;
+	position: relative;
+}
+
+.fr-birthday .content {
+	height: 24px;
+	width: 250px;
+	display: flex;
+	flex-direction: row;
+	font-size: 14px;	
+	align-items: center;
+	position: absolute;
+	top: 8px;
+	left: 10px;
+}
+
+.fr-birthday .content:hover {
+	background-color: #f5f6f7;
+	cursor: pointer;
+}
+
+.fr-birthday .content > img {
+	transform: scale(0.5);
+}
+
+.fr-birthday .content b {
+	color: #365899;
+	margin-right: 3px;
+}
+
+.fr-birthday .content .others {
+	color: #486cc5;
+	margin-left: 3px;
+}
+
+.right-of-main .language {
+	height: 60px;
+	width: 100%;
+	background-color: #FFF;
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+.language .english {
+	color: #90949c;
+}
+
+.language a {
+    color: #385898;
+    text-decoration: none;
+}
+
+.language a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.language .vietnamese {
+
+}
+
+.language .content {
+	padding: 12px;
+	display: flex;
+}
+
+.language .content .right {
+	padding-left: 12px;
+	display: inline-block;
+}
+
+.language .content .right a {
+	padding: 0px 10px 9px;
+}
+
