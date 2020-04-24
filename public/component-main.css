@@ -1,6 +1,6 @@
 .wrap .main {
 	display: flex;
-	width: 1030px;
+	width: 1050px;
 	position: relative;
 	left: 250px;
 	padding-top: 50px;
@@ -259,7 +259,7 @@
 	background-image: url(https://img2.thuthuatphanmem.vn/uploads/2019/01/04/anh-gai-dep-hien-dai_025059560.jpg);
 }
 
-.stories .story .my-avatar {
+.stories .story .avt {
 	border: 3px solid #3578e5;
 	position: absolute;
 	top: 13px;
@@ -310,29 +310,32 @@
 }
 
 .post-1 {
-	height: 500px;
+	height: 700px;
 	background-image: url(./pt1.png);
 }
 
 .post-2 {
-	height: 500px;
+	height: 670px;
 	background-image: url(./pt2.png);	
 }
 
 .post-3 {
-	height: 500px;
+	height: 680px;
 	background-image: url(./pt3.png);
 }
 
 .post-4 {
-	height: 500px;
+	height: 670px;
 	background-image: url(./pt4.png);
 }
 
 /*=====================================================*/
 .right-of-main {
 	height: 220px;
-	width: 270px;
+	width: 290px;
+	position: fixed;
+	top: 51px;
+	right: 204px;
 }
 
 .right-of-main .fr-birthday {
@@ -342,6 +345,7 @@
 	background-color: #FFF;
 	border-radius: 4px;
 	position: relative;
+	border: 1px solid #DDD;
 }
 
 .fr-birthday .content {
@@ -349,7 +353,7 @@
 	width: 250px;
 	display: flex;
 	flex-direction: row;
-	font-size: 14px;	
+	font-size: 13px;	
 	align-items: center;
 	position: absolute;
 	top: 8px;
@@ -381,13 +385,15 @@
 	background-color: #FFF;
 	margin-top: 10px;
 	font-size: 13px;
+	border: 1px solid #DDD;
 }
 
 .language .english {
 	color: #90949c;
 }
 
-.language a {
+.right-of-main a {
+	font-size: 12px;
     color: #385898;
     text-decoration: none;
 }
@@ -407,11 +413,26 @@
 }
 
 .language .content .right {
-	padding-left: 12px;
-	display: inline-block;
+	margin-left: 12px;
+	display: flex;
+	border: 1px solid #ccd0d5;
+	background-color: #f5f6f7;
+	align-items: flex-end;
 }
 
 .language .content .right a {
 	padding: 0px 10px 9px;
+	color: #4b4f56;	
 }
 
+.learn a {
+	color: #90949c;
+}
+
+.right-of-main .notes {
+	padding: 0px 12px 0px 12px;
+}
+
+.fb-2020 {
+	font-size: 12px;
+}

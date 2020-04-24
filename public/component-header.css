@@ -102,17 +102,20 @@ body {
 	align-items: center;
 }
 
-.my-avatar {
+.avt {
 	height: 30px;
 	width: 30px;
 	border-radius: 20px;
     border-radius: 20px;
     border-radius: 20px;
     border-radius: 20px;
-	background-image: url(./avt.jpg);
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.my-avatar {
 	margin-bottom: 7px;
+	background-image: url(./avt.jpg);
 }
 
 .profile .user-name {
@@ -169,7 +172,7 @@ body {
 
 .top-right-bar .more-options:hover .list-more {
 	display: block;
-
+	background-color: #FFF;
 }
 
 .list-more a {

@@ -1,13 +1,157 @@
 .right-sidebar {
 	background-color: transparent;
-	width: 200px;
+	width: 170px;
 	position: fixed;
 	right: 0px;
 	top: 50px;
 	height: 100%;
+	border: 1px solid #cad0db;
+	display: flex;
+	flex-direction: column;
 }
 
-.container-right-sidebar {
-	width: 100%;
-	height: 100%;
+.right-sidebar .your-games {
+	flex-basis: 85px;
+	border-bottom: 1px solid #cad0db;
+	display: flex;
+	flex-direction: column;
+	font-size: 10px;
+	position: relative;
+	padding: 5px;
+}
+
+.your-games .more {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.your-games .more a {
+	text-decoration: none;
+	color: #000;
+	font-size: 8px;
+}
+
+.your-games .game-list {
+	height: 65px;
+	margin: 10px 15px 5px 15px;
+	display: flex;
+	align-items: center;
+}
+
+.your-games .game-list .img-game {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 55px;
+	width: 55px;
+	border-radius: 30px;
+	margin: 5px;
+}
+
+.game-1 {
+	background-image: url(https://ictsaigon.vn/wp-content/uploads/2019/11/gemar-main-pubg-ini-hukumnya-dalam-islam-szb4jebwlg.jpg);
+}
+
+.game-2 {
+	background-image: url(https://azgame.info/wp-content/uploads/2019/09/phim-tat-trong-lien-minh-huyen-thoai.jpg);
+}
+
+.your-games .game-list .img-game:hover {
+	border: 2px solid #198cd0;
+}
+
+.right-sidebar .fr-online {
+	flex-basis: 200px;
+	flex-grow: 7;
+	padding-top: 10px;
+	overflow: auto;
+}
+
+.fr-online .online {
+	display: flex;
+	padding: 5px 0px 5px 0px;
+	align-items: center;
+}
+
+.fr-online .avt {
+	margin-left: 10px;
+}
+
+.o1-avt {
+	background-image: url(http://vanhienblog.info/wp-content/uploads/2019/02/anh-gai-xinh-dep-hot-girl-3.jpg);
+}		
+
+.o2-avt {
+	background-image: url(https://photo-1-baomoi.zadn.vn/w1000_r1/2019_03_06_251_29881209/fdd38a4374029d5cc413.jpg);
+}		
+
+.o3-avt {
+	background-image: url(https://i.imgur.com/uQ7c94B.jpg);
+}
+
+.o4-avt {
+	background-image: url(https://i.imgur.com/byTQbcl.jpg);
+}		
+
+.o5-avt {
+	background-image: url(https://i.imgur.com/6c3ByXj.jpg);
+}		
+
+.o6-avt {
+	background-image: url(https://i.imgur.com/6c3ByXj.jpg);
+}		
+
+.o7-avt {
+	background-image: url(https://i.imgur.com/6c3ByXj.jpg);
+}		
+
+.o8-avt {
+	background-image: url(https://i.imgur.com/6c3ByXj.jpg);
+}		
+
+.o9-avt {
+	background-image: url(https://i.imgur.com/rbVYeHG.jpg);
+}		
+
+.o10-avt {
+	background-image: url(https://i.imgur.com/rbVYeHG.jpg);
+}		
+
+.o11-avt {
+	background-image: url(https://i.imgur.com/rrdWYuM.jpg);
+}		
+
+.o12-avt {
+	background-image: url(https://i.imgur.com/C6IJ8nS.jpg);
+}		
+
+.o13-avt {
+	background-image: url(https://i.imgur.com/C6IJ8nS.jpg);
+}		
+
+.fr-online .name {
+	font-size: 12px; 
+	width: 70%; 
+	padding-left: 10px;
+}
+
+.fr-online .online .on-light {
+	background: rgb(66, 183, 42); 
+	border-radius: 50%; 
+	display: inline-block; 
+	height: 6px; 
+	margin-left: 4px; 
+	margin-right: 10px;
+	width: 6px;
+}
+
+.fr-online .online:hover {
+	background-color: #CCC;
+	cursor: pointer;
+}
+
+.right-sidebar .additions {
+	flex-basis: 15px;
+	flex-grow: 2;
+	background-color: #FFF;
 }
